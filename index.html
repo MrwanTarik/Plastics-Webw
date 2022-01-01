@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/master.css" />
+    <title>Central Engineering Plastics</title>
+  </head>
+  <body>
+    <!-- Start Nav -->
+    <div class="hot-fix"></div>
+    <nav class="navbar navbar-expand-lg navbar-light pt-2 fixed-top">
+      <div class="container" style="display: block">
+        <div class="row justify-content-between align-items-center">
+          <div class="fit logo">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="logo" width="188" height="52" />
+            </a>
+          </div>
+          <div class="col-md-6 search">
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search For Products & Categories"
+                aria-label="Search"
+              />
+              <svg
+                id="Iconly_Light-outline_Search"
+                data-name="Iconly/Light-outline/Search"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+              >
+                <g id="Search" transform="translate(1.5 1.5)">
+                  <path
+                    id="Search-2"
+                    data-name="Search"
+                    d="M14.115,14.894l-.062-.053-2.346-2.287a7.276,7.276,0,0,1-4.5,1.545A7.138,7.138,0,0,1,0,7.05,7.139,7.139,0,0,1,7.208,0a7.139,7.139,0,0,1,7.209,7.05,6.938,6.938,0,0,1-1.9,4.762l2.318,2.261a.535.535,0,0,1,0,.768.565.565,0,0,1-.723.053ZM1.11,7.05a6.039,6.039,0,0,0,6.1,5.964,6.039,6.039,0,0,0,6.1-5.964,6.039,6.039,0,0,0-6.1-5.964A6.039,6.039,0,0,0,1.11,7.05Z"
+                    fill="#200e32"
+                  />
+                </g>
+              </svg>
+            </form>
+          </div>
+          <div class="fit mobile">
+            <div class="menu-container d-flex">
+              <div>
+                <div class="d-flex align-items-center">
+                  <label class="vat" for="flexSwitchCheckDefault"
+                    >INC. Vat</label
+                  >
+                  <label class="--switch mx-2">
+                    <input type="checkbox" />
+                    <span class="--slider"></span>
+                  </label>
+                  <label class="vat" for="flexSwitchCheckDefault"
+                    >Ex. Vat</label
+                  >
+                </div>
+              </div>
+              <ul class="menu list-unstyled d-flex">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18.556"
+                    height="18.658"
+                    viewBox="0 0 18.556 18.658"
+                  >
+                    <g
+                      id="_674aaa8a5939fb3fb007e77121fb1581"
+                      data-name="674aaa8a5939fb3fb007e77121fb1581"
+                      transform="translate(-9.995 -7.3)"
+                    >
+                      <path
+                        id="Path_2"
+                        data-name="Path 2"
+                        d="M688.437,572.377a9.4,9.4,0,0,0-4.393-6.917.933.933,0,1,0-.977,1.59,7.516,7.516,0,0,1,3.516,5.531.934.934,0,0,0,.926.831.959.959,0,0,0,.1-.006A.932.932,0,0,0,688.437,572.377Z"
+                        transform="translate(-659.891 -547.457)"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M24.87,12.9a5.6,5.6,0,1,0-10.882,1.846.932.932,0,1,0,1.761-.613,3.733,3.733,0,1,1,3.524,2.5A9.312,9.312,0,0,0,10,24.922a.934.934,0,0,0,.826,1.03.96.96,0,0,0,.1.006.932.932,0,0,0,.926-.831,7.447,7.447,0,0,1,7.417-6.633A5.6,5.6,0,0,0,24.87,12.9Z"
+                        transform="translate(0)"
+                      />
+                    </g>
+                  </svg>
+                </li>
+                <li class="count">
+                  <span>0</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20.968"
+                    height="21.347"
+                    viewBox="0 0 20.968 21.347"
+                  >
+                    <g
+                      id="bdcb0c3f6d67999723518ef3c2ad5494"
+                      transform="translate(-10 -1.2)"
+                    >
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M30.829,6.1a.808.808,0,0,0-.67-.355h0l-15.946.036L12.884,1.756a.81.81,0,0,0-.77-.556H10.809a.81.81,0,1,0,0,1.62h.719l1.32,4.007.013.036L14.885,13,12.369,17.69a.81.81,0,0,0,.715,1.192H27.324a.809.809,0,1,0,0-1.618H14.435l1.81-3.374h11.3a.806.806,0,0,0,.751-.509l2.61-6.524A.815.815,0,0,0,30.829,6.1ZM27,12.268H16.344l-1.6-4.87,14.218-.032Z"
+                      />
+                      <path
+                        id="Path_5"
+                        data-name="Path 5"
+                        d="M198.48,897.9a1.081,1.081,0,1,0,1.08,1.081A1.08,1.08,0,0,0,198.48,897.9Z"
+                        transform="translate(-183.39 -877.514)"
+                      />
+                      <path
+                        id="Path_6"
+                        data-name="Path 6"
+                        d="M659.081,897.9a1.081,1.081,0,1,0,1.081,1.081A1.08,1.08,0,0,0,659.081,897.9Z"
+                        transform="translate(-634.136 -877.514)"
+                      />
+                    </g>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fit pc">
+            <div class="menu-container d-flex">
+              <div>
+                <a href="#">T. 0123 456 7890</a>
+                <a href="#">sales@cep.co.uk</a>
+              </div>
+              <ul class="menu list-unstyled d-flex">
+                <li>
+                  <div class="d-flex align-items-center">
+                    <label class="vat" for="flexSwitchCheckDefault"
+                      >INC. Vat</label
+                    >
+                    <label class="--switch mx-2">
+                      <input type="checkbox" />
+                      <span class="--slider"></span>
+                    </label>
+                    <label class="vat" for="flexSwitchCheckDefault"
+                      >Ex. Vat</label
+                    >
+                  </div>
+                </li>
+                <li class="count">
+                  <span>0</span>
+                  <svg
+                    id="_6f0a18fad030e38fc7194c6a4c334793"
+                    data-name="6f0a18fad030e38fc7194c6a4c334793"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21.845"
+                    height="18.658"
+                    viewBox="0 0 21.845 18.658"
+                  >
+                    <path
+                      id="Path_1"
+                      data-name="Path 1"
+                      d="M25.981,81.5a6.51,6.51,0,0,0-5.058,2.532A6.506,6.506,0,0,0,15.872,81.5,5.857,5.857,0,0,0,10,87.6c0,4.075,3.613,6.919,6.253,9,1,.789,1.732,1.346,2.329,1.8a18.291,18.291,0,0,1,1.926,1.585.592.592,0,0,0,.834,0,27.277,27.277,0,0,1,2.927-2.378l1.32-1c2.185-1.665,6.257-4.759,6.257-9.044A5.836,5.836,0,0,0,25.981,81.5ZM15.872,82.684a5.549,5.549,0,0,1,4.561,2.668.628.628,0,0,0,.981,0,5.56,5.56,0,0,1,4.57-2.67,4.683,4.683,0,0,1,4.686,4.882c0,3.413-2.992,5.974-5.8,8.105l-1.32,1c-1.371,1.039-2.037,1.545-2.633,2.086C20.486,98.366,20,98,19.3,97.461c-.571-.435-1.306-.994-2.318-1.794-2.448-1.924-5.8-4.561-5.8-8.063A4.7,4.7,0,0,1,15.872,82.684Z"
+                      transform="translate(-10 -81.5)"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18.556"
+                    height="18.658"
+                    viewBox="0 0 18.556 18.658"
+                  >
+                    <g
+                      id="_674aaa8a5939fb3fb007e77121fb1581"
+                      data-name="674aaa8a5939fb3fb007e77121fb1581"
+                      transform="translate(-9.995 -7.3)"
+                    >
+                      <path
+                        id="Path_2"
+                        data-name="Path 2"
+                        d="M688.437,572.377a9.4,9.4,0,0,0-4.393-6.917.933.933,0,1,0-.977,1.59,7.516,7.516,0,0,1,3.516,5.531.934.934,0,0,0,.926.831.959.959,0,0,0,.1-.006A.932.932,0,0,0,688.437,572.377Z"
+                        transform="translate(-659.891 -547.457)"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M24.87,12.9a5.6,5.6,0,1,0-10.882,1.846.932.932,0,1,0,1.761-.613,3.733,3.733,0,1,1,3.524,2.5A9.312,9.312,0,0,0,10,24.922a.934.934,0,0,0,.826,1.03.96.96,0,0,0,.1.006.932.932,0,0,0,.926-.831,7.447,7.447,0,0,1,7.417-6.633A5.6,5.6,0,0,0,24.87,12.9Z"
+                        transform="translate(0)"
+                      />
+                    </g>
+                  </svg>
+                </li>
+                <li class="count">
+                  <span>0</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20.968"
+                    height="21.347"
+                    viewBox="0 0 20.968 21.347"
+                  >
+                    <g
+                      id="bdcb0c3f6d67999723518ef3c2ad5494"
+                      transform="translate(-10 -1.2)"
+                    >
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M30.829,6.1a.808.808,0,0,0-.67-.355h0l-15.946.036L12.884,1.756a.81.81,0,0,0-.77-.556H10.809a.81.81,0,1,0,0,1.62h.719l1.32,4.007.013.036L14.885,13,12.369,17.69a.81.81,0,0,0,.715,1.192H27.324a.809.809,0,1,0,0-1.618H14.435l1.81-3.374h11.3a.806.806,0,0,0,.751-.509l2.61-6.524A.815.815,0,0,0,30.829,6.1ZM27,12.268H16.344l-1.6-4.87,14.218-.032Z"
+                      />
+                      <path
+                        id="Path_5"
+                        data-name="Path 5"
+                        d="M198.48,897.9a1.081,1.081,0,1,0,1.08,1.081A1.08,1.08,0,0,0,198.48,897.9Z"
+                        transform="translate(-183.39 -877.514)"
+                      />
+                      <path
+                        id="Path_6"
+                        data-name="Path 6"
+                        d="M659.081,897.9a1.081,1.081,0,1,0,1.081,1.081A1.08,1.08,0,0,0,659.081,897.9Z"
+                        transform="translate(-634.136 -877.514)"
+                      />
+                    </g>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fit categories">
+            <div class="dropdown">
+              <a
+                class="btn dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <svg
+                  class="me-3"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="12"
+                  viewBox="0 0 18 12"
+                >
+                  <path
+                    id="path"
+                    d="M557.4,875h18v2h-18Zm0,7v-2h18v2Zm0,5v-2h18v2Z"
+                    transform="translate(-557.4 -875)"
+                  />
+                </svg>
+                All Categories
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fit toggler">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="taps">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="44"
+                  viewBox="0 0 18 12"
+                >
+                  <path
+                    id="path"
+                    d="M557.4,875h18v2h-18Zm0,7v-2h18v2Zm0,5v-2h18v2Z"
+                    transform="translate(-557.4 -875)"
+                  />
+                </svg>
+              </span>
+              <div>MENU</div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop by Shape</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Plastic & Perspex</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign & Display</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hosepipe & Fittings </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cladding & Profiles</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <div class="landing">
+      <div class="container">
+        <div class="row gx-0">
+          <div class="col-12 col-md-8">
+            <div class="content">
+              <h2>SUPPLYING PLASTICS AND LAMINATES TO INDUSTRY</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="btn">
+                <a href="#"> Buy Now</a>
+                <svg
+                  id="Icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="19.013"
+                  viewBox="0 0 22 19.013"
+                >
+                  <path
+                    id="Color"
+                    d="M17.5,19.012H4.5a1.992,1.992,0,0,1-1.92-1.46L.04,8.283A.851.851,0,0,1,0,8.013a1,1,0,0,1,1-1H5.77L10.16.443A.986.986,0,0,1,10.986,0a1.006,1.006,0,0,1,.834.443l4.39,6.57H21a1,1,0,0,1,1,1l-.03.27-2.54,9.27A2.019,2.019,0,0,1,17.5,19.012Zm-6.5-8a2,2,0,1,0,2,2A2,2,0,0,0,11,11.012ZM10.99,2.8h0L8.18,7.013H13.8L10.99,2.8Z"
+                    transform="translate(0 0)"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start Expertise -->
+    <div class="expertise">
+      <div class="container">
+        <div class="head">
+          <h4>OUR EXPERIENCE & EXPERTISE</h4>
+          <h5>WE HAVE EXPERTISE IN THE FOLLOWING SECTORS</h5>
+        </div>
+        <div class="exp-box">
+          <div class="row gy-4">
+            <div class="col-md-4">
+              <img class="img-fluid" src="images/Sector 1.svg" alt="" />
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="images/Sector 2.svg" alt="" />
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="images/Sector 3.svg" alt="" />
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="images/Sector 4.svg" alt="" />
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="images/Sector 5.svg" alt="" />
+            </div>
+            <div class="col-md-4">
+              <img class="img-fluid" src="images/Sector 6.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="img-holder d-flex justify-content-center">
+          <img src="images/Group 53.svg" alt="" />
+        </div>
+        <div
+          class="btn-container d-flex justify-content-center align-items-center"
+        >
+          <div class="btn">
+            <a href="#">Explore Our Product Ranges</a>
+          </div>
+          <div class="btn">
+            <a href="#">Explore More Sectors</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start sector -->
+    <div class="sector image1">
+      <div class="container">
+        <div class="content d-flex justify-content-between align-items-center">
+          <div class="col-md-5">
+            <h2>Compliance expertise in the medical industry</h2>
+          </div>
+          <div class="btn">
+            <a href="#">Start Shopping</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- products -->
+    <div class="products">
+      <div class="container">
+        <div class="head">
+          <h4>PRODUCTS</h4>
+          <h5>ENGINEERING PLASTICS</h5>
+        </div>
+        <div class="row master-row">
+          <div class="col-md-6">
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="box">
+                  <div class="btn">
+                    <a href="#">Buy Now</a>
+                  </div>
+                  <img class="img-fluid" src="images/p1.png" alt="" />
+                  <p>Product Name <span>£8.25</span></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="box">
+                  <div class="btn">
+                    <a href="#">Buy Now</a>
+                  </div>
+                  <img class="img-fluid" src="images/p2.png" alt="" />
+                  <p>Product Name <span>£8.25</span></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="box">
+                  <div class="btn">
+                    <a href="#">Buy Now</a>
+                  </div>
+                  <img class="img-fluid" src="images/p3.png" alt="" />
+                  <p>Product Name <span>£8.25</span></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="box">
+                  <div class="btn">
+                    <a href="#">Buy Now</a>
+                  </div>
+                  <img class="img-fluid" src="images/p4.png" alt="" />
+                  <p>Product Name <span>£8.25</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="sale-box">
+              <div class="btn">
+                <a href="#">BUY NOW</a>
+              </div>
+              <div class="spans">
+                <span>SALE -50%</span>
+                <span>£8.25</span>
+              </div>
+              <div class="img-holder">
+                <img class="img-fluid" src="images/p5.png" alt="" />
+              </div>
+              <div class="content">
+                <p>Product Name</p>
+                <p>Further Information</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="btn-container d-flex justify-content-center align-items-center"
+        >
+          <div class="btn">
+            <a href="#">Explore Our Products</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start sector -->
+    <div class="sector image2">
+      <div class="container">
+        <div class="content d-flex justify-content-between align-items-center">
+          <div class="col-md-5">
+            <h2>Cost-effective solutions for the oil & gas industry</h2>
+          </div>
+          <div class="btn">
+            <a href="#">Start Shopping</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start TOP PRODUCTS -->
+    <div class="top-products">
+      <div class="container">
+        <div class="head">
+          <h4>TOP PRODUCTS</h4>
+          <h5>NEW PRODUCTS AVAILABLE</h5>
+          <div class="row gy-5">
+            <div class="col-4 col-lg-3">
+              <div class="box">
+                <div class="btn">
+                  <a href="#">Buy Now</a>
+                </div>
+                <img class="img-fluid" src="images/p4.png" alt="" />
+                <p>Product Name <span>£8.25</span></p>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="box">
+                <div class="btn">
+                  <a href="#">Buy Now</a>
+                </div>
+                <img class="img-fluid" src="images/p5.png" alt="" />
+                <p>Product Name <span>£8.25</span></p>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="box">
+                <div class="btn">
+                  <a href="#">Buy Now</a>
+                </div>
+                <img class="img-fluid" src="images/p3.png" alt="" />
+                <p>Product Name <span>£8.25</span></p>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="box">
+                <div class="btn">
+                  <a href="#">Buy Now</a>
+                </div>
+                <img class="img-fluid" src="images/p5.png" alt="" />
+                <p>Product Name <span>£8.25</span></p>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="box">
+                <div class="btn">
+                  <a href="#">Buy Now</a>
+                </div>
+                <img class="img-fluid" src="images/p1.png" alt="" />
+                <p>Product Name <span>£8.25</span></p>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="box">
+                <div class="btn">
+                  <a href="#">Buy Now</a>
+                </div>
+                <img class="img-fluid" src="images/p2.png" alt="" />
+                <p>Product Name <span>£8.25</span></p>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="box">
+                <div class="btn">
+                  <a href="#">Buy Now</a>
+                </div>
+                <img class="img-fluid" src="images/p4.png" alt="" />
+                <p>Product Name <span>£8.25</span></p>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="box">
+                <div class="btn">
+                  <a href="#">Buy Now</a>
+                </div>
+                <img class="img-fluid" src="images/p3.png" alt="" />
+                <p>Product Name <span>£8.25</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start sector -->
+    <div class="sector image3">
+      <div class="container">
+        <div class="content d-flex justify-content-between align-items-center">
+          <div class="col-md-5">
+            <h2>Reducing costs for the construction industry</h2>
+          </div>
+          <div class="btn">
+            <a href="#">Start Shopping</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-3">
+            <div class="fit logo">
+              <a class="brand" href="#">
+                <img src="images/logo.png" alt="logo" width="135" height="37" />
+              </a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col col-md">
+              <ul class="account list-unstyled">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">My Account</a></li>
+              </ul>
+              <ul class="text list-unstyled">
+                <li>Text Goes Here</li>
+                <li>Text Goes Here</li>
+              </ul>
+            </div>
+            <div class="col col-md">
+              <ul class="legals list-unstyled">
+                <li><a href="#">Legals</a></li>
+                <li><a href="#">Licence</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="col-5 col-md">
+              <ul class="contact list-unstyled">
+                <li>Contacts</li>
+                <li>Feel free get in touch with us via phone or send us a message</li>
+                <li><a href="#">+44 01234 5678910</a></li>
+                <li><a href="#">support@cep.co.uk</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- link js bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
